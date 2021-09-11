@@ -7,7 +7,7 @@ import (
 )
 
 func ExampleConvert() {
-	s := "マツエ テッペイ　めっちゃほりでぃ ﾅﾝﾊﾞかげつで まんざい みるんだょっ"
+	s := "マツエ テッペイ　めっちゃほりでぃ ﾅﾝﾊﾞかげつで まんざい みるんだょっ"
 	fmt.Println(krconv.Convert(s))
 	//Output:
 	//matsue teppei metchahoridei nambakagetsude manzai mirundayotsu
