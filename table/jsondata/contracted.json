@@ -1,0 +1,45 @@
+[
+	{"roman1": "ki", "roman2": "xya", "contracted": "kya"},
+	{"roman1": "ki", "roman2": "xyu", "contracted": "kyu"},
+	{"roman1": "ki", "roman2": "xyo", "contracted": "kyo"},
+
+	{"roman1": "shi", "roman2": "xya", "contracted": "sha"},
+	{"roman1": "shi", "roman2": "xyu", "contracted": "shu"},
+	{"roman1": "shi", "roman2": "xyo", "contracted": "sho"},
+
+	{"roman1": "chi", "roman2": "xya", "contracted": "cha"},
+	{"roman1": "chi", "roman2": "xyu", "contracted": "chu"},
+	{"roman1": "chi", "roman2": "xyo", "contracted": "cho"},
+
+	{"roman1": "ni", "roman2": "xya", "contracted": "nya"},
+	{"roman1": "ni", "roman2": "xyu", "contracted": "nyu"},
+	{"roman1": "ni", "roman2": "xyo", "contracted": "nyo"},
+
+	{"roman1": "hi", "roman2": "xya", "contracted": "hya"},
+	{"roman1": "hi", "roman2": "xyu", "contracted": "hyu"},
+	{"roman1": "hi", "roman2": "xyo", "contracted": "hyo"},
+
+	{"roman1": "mi", "roman2": "xya", "contracted": "mya"},
+	{"roman1": "mi", "roman2": "xyu", "contracted": "myu"},
+	{"roman1": "mi", "roman2": "xyo", "contracted": "myo"},
+
+	{"roman1": "ri", "roman2": "xya", "contracted": "rya"},
+	{"roman1": "ri", "roman2": "xyu", "contracted": "ryu"},
+	{"roman1": "ri", "roman2": "xyo", "contracted": "ryo"},
+
+	{"roman1": "gi", "roman2": "xya", "contracted": "gya"},
+	{"roman1": "gi", "roman2": "xyu", "contracted": "gyu"},
+	{"roman1": "gi", "roman2": "xyo", "contracted": "gyo"},
+
+	{"roman1": "ji", "roman2": "xya", "contracted": "ja"},
+	{"roman1": "ji", "roman2": "xyu", "contracted": "ju"},
+	{"roman1": "ji", "roman2": "xyo", "contracted": "jo"},
+
+	{"roman1": "bi", "roman2": "xya", "contracted": "bya"},
+	{"roman1": "bi", "roman2": "xyu", "contracted": "byu"},
+	{"roman1": "bi", "roman2": "xyo", "contracted": "byo"},
+
+	{"roman1": "pi", "roman2": "xya", "contracted": "pya"},
+	{"roman1": "pi", "roman2": "xyu", "contracted": "pyu"},
+	{"roman1": "pi", "roman2": "xyo", "contracted": "pyo"}
+]
