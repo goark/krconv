@@ -6,10 +6,11 @@ import (
 	"github.com/rivo/uniseg"
 	"github.com/spiegel-im-spiegel/krconv/kana"
 	"github.com/spiegel-im-spiegel/krconv/table"
+	"github.com/spiegel-im-spiegel/krconv/width"
 )
 
 func Convert(s string) string {
-	kanaTxt := kana.ConvertStringHiragana(s)
+	kanaTxt := width.ConvertStringFold(kana.ReplaceKatakana(s))
 
 	//get character list
 	cl := []string{}
