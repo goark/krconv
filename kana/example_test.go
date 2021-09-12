@@ -6,11 +6,11 @@ import (
 	"github.com/spiegel-im-spiegel/krconv/kana"
 )
 
-func ExampleConvertStringHiragana() {
+func ExampleReplaceKatakana() {
 	txt := "あいうえおわゐゑをんゔゕゖゝゞアイウエオワヰヱヲンヴヵヶヽヾ"
-	fmt.Println(kana.ConvertStringHiragana(txt))
+	fmt.Println(kana.ReplaceKatakana(txt))
 	//Output:
-	//あいうえおわゐゑをんゔゕゖゝゞあいうえおわゐゑをんゔゕゖゝゞ
+	//アイウエオワヰヱヲンヴヵヶヽヾアイウエオワヰヱヲンヴヵヶヽヾ
 }
 
 /* Copyright 2020-2021 Spiegel

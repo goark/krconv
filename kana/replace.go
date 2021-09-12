@@ -20,13 +20,22 @@ var (
 	}
 )
 
-//ReplaceHiragana replaces hiragana from katrakana (full-width kana kcharacter only).
-func ReplaceHiragana(txt string) string {
+// //ReplaceHiragana replaces hiragana from katrakana (full-width kana kcharacter only).
+// func ReplaceHiragana(txt string) string {
+// 	ss := []string{}
+// 	for k, v := range replacekanaMap {
+// 		ss = append(ss, k, v)
+// 	}
+// 	return strings.ToLowerSpecial(kanaCase, strings.NewReplacer(ss...).Replace(txt))
+// }
+
+//ReplaceKatakana replaces katakana from hiragana (full-width kana kcharacter only).
+func ReplaceKatakana(txt string) string {
 	ss := []string{}
 	for k, v := range replacekanaMap {
-		ss = append(ss, k, v)
+		ss = append(ss, v, k)
 	}
-	return strings.ToLowerSpecial(kanaCase, strings.NewReplacer(ss...).Replace(txt))
+	return strings.ToUpperSpecial(kanaCase, strings.NewReplacer(ss...).Replace(txt))
 }
 
 /* Copyright 2020-2021 Spiegel
