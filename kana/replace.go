@@ -20,15 +20,6 @@ var (
 	}
 )
 
-// //ReplaceHiragana replaces hiragana from katrakana (full-width kana kcharacter only).
-// func ReplaceHiragana(txt string) string {
-// 	ss := []string{}
-// 	for k, v := range replacekanaMap {
-// 		ss = append(ss, k, v)
-// 	}
-// 	return strings.ToLowerSpecial(kanaCase, strings.NewReplacer(ss...).Replace(txt))
-// }
-
 //ReplaceKatakana replaces katakana from hiragana (full-width kana kcharacter only).
 func ReplaceKatakana(txt string) string {
 	ss := []string{}

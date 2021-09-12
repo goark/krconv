@@ -1,6 +1,7 @@
 package table
 
-func RomanLetters(s string) string {
+//RomanLetters function returns roman letter from fullwidth katakana.
+func RomanLetter(s string) string {
 	if r, ok := mapCharacters[s]; ok {
 		return r
 	}

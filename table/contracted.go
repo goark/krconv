@@ -5,14 +5,18 @@ import (
 	"strings"
 )
 
+//ExistContractedFirstChar function returns true if string is first letter in contracted characters.
 func ExistContractedFirstChar(first string) bool {
+	//binary search in contractedList
 	if n := sort.Search(len(contractedList), func(i int) bool { return strings.Compare(contractedList[i].roman1, first) >= 0 }); n < len(contractedList) && contractedList[n].roman1 == first {
 		return true
 	}
 	return false
 }
 
-func GetContractedChars(first, second string) string {
+//GetContractedChars function returns contracted character from two letters.
+func GetContractedChars(first, second string) (string, bool) {
+	//binary search in contractedList
 	n := sort.Search(len(contractedList), func(i int) bool {
 		if strings.Compare(contractedList[i].roman1, first) > 0 {
 			return true
@@ -23,9 +27,9 @@ func GetContractedChars(first, second string) string {
 		return false
 	})
 	if n < len(contractedList) && contractedList[n].roman1 == first && contractedList[n].roman2 == second {
-		return contractedList[n].contracted
+		return contractedList[n].contracted, true
 	}
-	return ""
+	return "", false
 }
 
 /* Copyright 2021 Spiegel
