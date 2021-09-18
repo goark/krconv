@@ -101,5 +101,26 @@
 
 	{"kana": "ン", "roman": "n"},
 	{"kana": "ヴ", "roman": "bu"},
-	{"kana": "ー", "roman": ""}
+	{"kana": "ー", "roman": ""},
+
+	{"kana": "ㇰ", "roman": "ku"},
+	{"kana": "ㇱ", "roman": "shi"},
+	{"kana": "ㇲ", "roman": "su"},
+	{"kana": "ㇳ", "roman": "to"},
+	{"kana": "ㇴ", "roman": "nu"},
+	{"kana": "ㇵ", "roman": "ha"},
+	{"kana": "ㇶ", "roman": "hi"},
+	{"kana": "ㇷ", "roman": "fu"},
+	{"kana": "ㇸ", "roman": "he"},
+	{"kana": "ㇹ", "roman": "ho"},
+	{"kana": "ㇺ", "roman": "mu"},
+	{"kana": "ㇻ", "roman": "ra"},
+	{"kana": "ㇼ", "roman": "ri"},
+	{"kana": "ㇽ", "roman": "ru"},
+	{"kana": "ㇾ", "roman": "re"},
+	{"kana": "ㇿ", "roman": "ro"},
+	{"kana": "𛅤", "roman": "i"},
+	{"kana": "𛅥", "roman": "e"},
+	{"kana": "𛅦", "roman": "o"},
+	{"kana": "𛅧", "roman": "n"}
 ]

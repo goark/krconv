@@ -11,6 +11,8 @@ var (
 		unicode.CaseRange{Lo: 'ゝ', Hi: 'ゞ', Delta: [unicode.MaxCase]rune{'ヽ' - 'ゝ', 0, 0}},
 		unicode.CaseRange{Lo: 'ァ', Hi: 'ヶ', Delta: [unicode.MaxCase]rune{0, 'ぁ' - 'ァ', 0}},
 		unicode.CaseRange{Lo: 'ヽ', Hi: 'ヾ', Delta: [unicode.MaxCase]rune{0, 'ゝ' - 'ヽ', 0}},
+		unicode.CaseRange{Lo: 0x1b150, Hi: 0x1b152, Delta: [unicode.MaxCase]rune{0x1b164 - 0x1b150, 0, 0}},
+		unicode.CaseRange{Lo: 0x1b164, Hi: 0x1b166, Delta: [unicode.MaxCase]rune{0, 0x1b150 - 0x1b164, 0}},
 	}
 	replacekanaMap = map[string]string{
 		string([]rune{'ヷ'}): string([]rune{'わ', 0x3099}),
