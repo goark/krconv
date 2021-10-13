@@ -4,14 +4,13 @@ import (
 	"strings"
 
 	"github.com/rivo/uniseg"
-	"github.com/spiegel-im-spiegel/krconv/kana"
+	"github.com/spiegel-im-spiegel/kkconv"
 	"github.com/spiegel-im-spiegel/krconv/table"
-	"github.com/spiegel-im-spiegel/krconv/width"
 )
 
 func Convert(s string) string {
 	//conversion fullwidth katakana
-	kanaTxt := width.ConvertStringFold(kana.ReplaceKatakana(s))
+	kanaTxt := kkconv.Katakana(s, true)
 
 	//get characters list
 	cl := []string{}
