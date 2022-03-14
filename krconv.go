@@ -3,9 +3,9 @@ package krconv
 import (
 	"strings"
 
+	"github.com/goark/kkconv"
+	"github.com/goark/krconv/table"
 	"github.com/rivo/uniseg"
-	"github.com/spiegel-im-spiegel/kkconv"
-	"github.com/spiegel-im-spiegel/krconv/table"
 )
 
 func Convert(s string) string {
