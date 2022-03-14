@@ -3,7 +3,7 @@ package krconv_test
 import (
 	"fmt"
 
-	"github.com/spiegel-im-spiegel/krconv"
+	"github.com/goark/krconv"
 )
 
 func ExampleConvert() {
