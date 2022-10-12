@@ -1,7 +1,6 @@
-github.com/goark/kkconv v0.3.0 h1:RdaBegGxmC6jFbFfFirKBs5fCdEKixGIbC72uJrMpmY=
-github.com/goark/kkconv v0.3.0/go.mod h1:KZIkxhk9h0rWweuqI3FYXdGmjW1Q4GuK0MmrzBF+Q/4=
-github.com/rivo/uniseg v0.2.0 h1:S1pD9weZBuJdFmowNwbpi7BJ8TNftyUImj/0WQi72jY=
-github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
-golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
-golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
-golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
+github.com/goark/kkconv v0.3.1 h1:oUmPb7y8ymE1YuZtbZO1Mr2yiDQLEAWOI7l7wPpATsI=
+github.com/goark/kkconv v0.3.1/go.mod h1:5ZSIktoUG6t4IXG1OJZoM1R+SkfFVCxnDnVyDu0wVsE=
+github.com/rivo/uniseg v0.4.2 h1:YwD0ulJSJytLpiaWua0sBDusfsCZohxjxzVTYjwxfV8=
+github.com/rivo/uniseg v0.4.2/go.mod h1:FN3SvrM+Zdj16jyLfmOkMNblXMcoc8DfTHruCPUcx88=
+golang.org/x/text v0.3.8 h1:nAL+RVCQ9uMn3vJZbV+MRnydTJFPf8qqY42YiA6MrqY=
+golang.org/x/text v0.3.8/go.mod h1:E6s5w1FMmriuDzIBO73fBruAKo1PCIq6d2Q6DHfQ8WQ=
