@@ -5,6 +5,7 @@ tasks:
     cmds:
       - task: clean
       - task: test
+      - task: nancy
       - task: graph
 
   test:
@@ -12,11 +13,18 @@ tasks:
     cmds:
       - go mod verify
       - go test -shuffle on ./...
-      - docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:v1.50.0 golangci-lint run --enable gosec --timeout 3m0s ./...
+      - docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:v1.50.1 golangci-lint run --enable gosec --timeout 3m0s ./...
     sources:
       - ./go.mod
       - '**/*.go'
 
+  nancy:
+    desc: Check vulnerability of external packages with Nancy.
+    cmds:
+      - depm list -j | nancy sleuth -n
+    sources:
+      - ./go.mod
+      - '**/*.go'
   clean:
     desc: Initialize module and build cache, and remake go.sum file.
     cmds:
